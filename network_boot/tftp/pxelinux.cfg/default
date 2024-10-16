@@ -1,0 +1,7 @@
+# tftp/pxelinux.cfg/default
+
+DEFAULT linux
+LABEL linux
+    KERNEL vmlinuz  
+    APPEND initrd=initrd-k3s.img 
+
